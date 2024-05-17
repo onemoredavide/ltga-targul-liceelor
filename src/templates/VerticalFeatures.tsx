@@ -1,5 +1,6 @@
 import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
+import Gallery from './Gallery';
 
 const VerticalFeatures = () => (
   <Section
@@ -25,6 +26,8 @@ const VerticalFeatures = () => (
       image="/assets/images/feature3.svg"
       imageAlt="Third feature alt text"
     />
+
+    <Gallery />
   </Section>
 );
 
